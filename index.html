@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Sweet Love | Sweet Love</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="assets/v.png" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Acerca de</a></li>
+          <li><a href="#service">Servicios</a></li>
+          <li><a href="#explore">Explora</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <button class="btn nav__btn">Reservar Ahora</button>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <p>Sencillo - único - Amigable</p>
+        <h1>Siéntete Como en Casa<br />En Nuestro <span>Hotel</span>.</h1>
+      </div>
+    </header>
+
+    <section class="section__container booking__container">
+      <form action="/" class="booking__form">
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-in">FECHA-DE-ENTRADA</label>
+            <input type="text" placeholder="Fecha de Entrada" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-out">FECHA-DE-SALIDA</label>
+            <input type="text" placeholder="Fecha de Salida" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">HUESPED</label>
+            <input type="text" placeholder="Huespéd" />
+          </div>
+        </div>
+        <div class="input__group input__btn">
+          <button class="btn">VERIFICAR</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">ACERCA DE NOSOTROS</p>
+        <h2 class="section__header">¡Las Mejores Vacaciones Comienzan Aquí!</h2>
+        <p class="section__description">
+          Con un enfoque en alojamientos de calidad, experiencias personalizadas y reservas sin complicaciones, nuestra plataforma está dedicada a garantizar que cada viajero inicie sus vacaciones soñadas con confianza y emoción.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Leer Más</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container">
+      <p class="section__subheader">NUESTRA SALA DE ESTAR</p>
+      <h2 class="section__header">El Tiempo de Descanso Más Memorable Comienza Aquí.</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-1.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Habitación Familiar</h4>
+            <p>
+              Experimenta el confort en el corazón de la ciudad junto a tu familia y conserven por siempre esta gran experiencia.
+            </p>
+            <h5>A partir de <span>$5000/noche</span></h5>
+            <button class="btn">Reserva Ahora</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-2.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Habitación Sencilla</h4>
+            <p>
+              Experimenta un lugar nuevo para divertirte y relajarte.
+            </p>
+            <h5>A partir de<span>$2340/noche</span></h5>
+            <button class="btn">Reservar Ahora</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-3.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Habitación de Pareja</h4>
+            <p>
+              Experimenta, ven y diviertete a lado de tu persona especial.
+            </p>
+            <h5>A partir de <span>$1800/noche</span></h5>
+            <button class="btn">Reservar Ahora</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">SERVICIOS</p>
+          <h2 class="section__header">Nos Esforzamos Solo Por Lo Mejor.</h2>
+          <ul class="service__list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+              Seguridad de Alta Clase
+            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>
+              Servicio de Habitación 24 Hrs
+            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></span>
+              Sala de Conferencias
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+              Soporte de Guía Turístico
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__content">
+        <div class="banner__card">
+          <h4>25+</h4>
+          <p>Propiedades Disponibles</p>
+        </div>
+        <div class="banner__card">
+          <h4>350+</h4>
+          <p>reservas Completadas</p>
+        </div>
+        <div class="banner__card">
+          <h4>600+</h4>
+          <p>Clientes Satisfechos</p>
+        </div>
+      </div>
+    </section>
+    <section class="explore" id="explore">
+      <p class="section__subheader">EXPLORA</p>
+      <h2 class="section__header">Lo Nuevo de Hoy.</h2>
+      <div class="explore__bg">
+        <div class="explore__content">
+          <p class="section__description">10 Junio 2024</p>
+          <h4>Un Nuevo Menú Está Disponible en Nuestro Hotel.</h4>
+          <button class="btn">Continuar</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="#home"><img src="assets/v.png" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Descubre un mundo de confort,lujo y aventuras mientras exploras nuestra selección de hoteles cuidadosamente seleccionados,haciendo qué cada momento de tu escapada sea realmente extraordinario.
+          </p>
+          <button class="btn">Reservar Ahora</button>
+        </div>
+        <div class="footer__col">
+          <h4>ENLACES RAPIDOS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Explorar Destinos</a></li>
+            <li><a href="#">Ofertas Especiales y Paquetes</a></li>
+            <li><a href="#">Tipos de Habitaciones y Amenidades</a></li>
+            <li><a href="#">Opiniones y Valoraciones de Clientes</a></li>
+            <li><a href="#">Consejos y Guias de Viaje</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>NUESTROS SERVICIOS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Asistencia de Consejeria</a></li>
+            <li><a href="#">Opciones de Reserva Flexible</a></li>
+            <li><a href="#">Traslados al Aereopuerto</a></li>
+            <li><a href="#">Bienestar y Recreación</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTÁCTENOS</h4>
+          <ul class="footer__links">
+            <li><a href="#">sweetlove@info.com</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Sweet Love. Todos los derechos reservados.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
